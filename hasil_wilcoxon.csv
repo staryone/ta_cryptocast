@@ -1,0 +1,8 @@
+model1,model2,mean_R2_baseline,mean_R2_model,delta_R2,p_value_R2,significant_R2,mean_MAPE_baseline,mean_MAPE_model,delta_MAPE,p_value_MAPE,significant_MAPE
+GRU-Price,LSTM-Price,0.9534,0.9354,0.018,0.0001,True,2.9217,3.438,0.5163,0.0001,True
+GRU-Price,LSTM-Sentiment,0.9534,0.9167,0.0367,0.0001,True,2.9217,3.9557,1.034,0.0001,True
+GRU-Price,LSTM-OnChain,0.9534,0.8885,0.0649,0.0001,True,2.9217,4.5486,1.6269,0.0001,True
+GRU-Price,LSTM-Full,0.9534,0.8791,0.0743,0.0001,True,2.9217,4.842,1.9203,0.0001,True
+GRU-Price,GRU-Sentiment,0.9534,0.9399,0.0135,0.0009,True,2.9217,3.4118,0.4901,0.0026,True
+GRU-Price,GRU-OnChain,0.9534,0.9272,0.0262,0.0009,True,2.9217,3.8362,0.9145,0.0012,True
+GRU-Price,GRU-Full,0.9534,0.9338,0.0196,0.002,True,2.9217,3.9997,1.078,0.0001,True
